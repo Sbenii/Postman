@@ -73,7 +73,7 @@
 							"script": {
 								"id": "15fc08b8-dbc8-4362-a497-d5379f4fd8e6",
 								"exec": [
-									"pm.test(\"Verifying that response time is less than 400ms\", function () {",
+									"pm.test(\"Verifying that response time is less than 300ms\", function () {",
 									"    pm.expect(pm.response.responseTime).to.be.below(300);",
 									"});",
 									"pm.test(\"Verify that status code is 200\", function () {",
