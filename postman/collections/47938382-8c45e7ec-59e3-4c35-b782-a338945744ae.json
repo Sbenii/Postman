@@ -26,8 +26,11 @@
 							"listen": "prerequest",
 							"script": {
 								"id": "93f7e378-1c91-4d9b-ad5b-f5b4c9e7ab44",
-								"exec": [],
-								"type": "text/javascript"
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
 							}
 						}
 					],
@@ -36,6 +39,9 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "noauth"
+						},
 						"method": "GET",
 						"header": [],
 						"url": {
