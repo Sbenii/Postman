@@ -67,6 +67,29 @@
 				},
 				{
 					"name": "GET List User",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "15fc08b8-dbc8-4362-a497-d5379f4fd8e6",
+								"exec": [
+									"pm.test(\"Response time is less than 200ms\", function () {",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "e3159a3b-f48d-4de1-af3d-8225f0d09437",
+								"exec": [],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "47938382-37a0f860-2426-4584-82c7-6f1cd6cd06e9",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
