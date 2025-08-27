@@ -1,0 +1,219 @@
+{
+	"info": {
+		"_postman_id": "47938382-8c45e7ec-59e3-4c35-b782-a338945744ae",
+		"name": "Collection1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"item": [
+				{
+					"name": "GET Single User",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "e8725e84-6f5b-485f-8157-6f007793309c",
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "93f7e378-1c91-4d9b-ad5b-f5b4c9e7ab44",
+								"exec": [],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "47938382-82116312-53bf-4215-b9a8-cf5162de9399",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Url}}/api/users/1",
+							"host": [
+								"{{Url}}"
+							],
+							"path": [
+								"api",
+								"users",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET List User",
+					"id": "47938382-37a0f860-2426-4584-82c7-6f1cd6cd06e9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Url}}/api/users?page=2",
+							"host": [
+								"{{Url}}"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "47938382-3196c233-c3bc-4f75-b3ce-7fdccc91fe33",
+			"auth": {
+				"type": "noauth"
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "d691704f-4c1c-4a8e-9b7d-01ad57eadff5",
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "c666348c-8366-442c-b3e1-ce5945003f68",
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							"console.log(\"Hello Beni!!!\");",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"let Variable=pm.globals.get(\"Url\");",
+							"console.log(\"The value of the variable= \"+Variable);",
+							"pm.globals.set(\"Name\", \"SBeni🔥\");",
+							"let Newvar =pm.globals.get(\"Name\");",
+							"console.log(\"The value of the new variable= \"+Newvar);"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "POST",
+			"item": [
+				{
+					"name": "Register Successfull",
+					"id": "47938382-88b8dd79-af87-428d-af82-7010e0a5f0f1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "reqres-free-v1",
+								"description": "Free API key",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"{{Email}}\",\n  \"password\": \"{{Password}}\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Url}}/{{Endpoint}}",
+							"host": [
+								"{{Url}}"
+							],
+							"path": [
+								"{{Endpoint}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "47938382-8e91036c-c4a8-4e21-84ee-557bc2197a7e",
+			"auth": {
+				"type": "noauth"
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "5d08ba41-05f8-4608-8f69-2bdd496c0cb4",
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "3695153c-bbb4-4316-b7a0-45c3856288f8",
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "df4e7093-4e0e-45fa-a844-9848adad5120",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "3a7b879d-0491-4781-b030-48c122dc6d12",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
