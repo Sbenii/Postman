@@ -1,0 +1,19 @@
+{
+	"info": {
+		"_postman_id": "47938382-86474761-1063-4211-9068-31fa38fe7bc1",
+		"name": "Collection2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"item": [],
+			"id": "47938382-1c6d5d1c-f95f-43b2-8126-3d7f2c6cadeb"
+		},
+		{
+			"name": "POST",
+			"item": [],
+			"id": "47938382-b230b2ef-03a5-4dc1-aac1-94a153a4e910"
+		}
+	]
+}
