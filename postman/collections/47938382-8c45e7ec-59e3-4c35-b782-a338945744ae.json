@@ -27,7 +27,15 @@
 							"script": {
 								"id": "93f7e378-1c91-4d9b-ad5b-f5b4c9e7ab44",
 								"exec": [
-									""
+									"console.log(\"Hello Beni!!!\");",
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"let Variable=pm.globals.get(\"Url\");",
+									"console.log(\"The value of the variable= \"+Variable);",
+									"pm.globals.set(\"Name\", \"SBeni🔥\");",
+									"let Newvar =pm.globals.get(\"Name\");",
+									"console.log(\"The value of the new variable= \"+Newvar);"
 								],
 								"type": "text/javascript",
 								"packages": {}
