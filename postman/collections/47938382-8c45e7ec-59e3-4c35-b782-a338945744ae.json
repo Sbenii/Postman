@@ -78,11 +78,7 @@
 									"});",
 									"pm.test(\"Verify that status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
-									"}); ",
-									"pm.test(\"Your test name\", function () {",
-									"    var jsonData = pm.response.json();",
-									"    pm.expect(jsonData.value).to.eql(100);",
-									"});"
+									"}); "
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -91,7 +87,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "ce5a6cd9-a8d9-4568-8d6f-038f7da3be82",
+								"id": "61893ea9-049c-4031-9b5c-d6265656c508",
 								"exec": [],
 								"type": "text/javascript"
 							}
