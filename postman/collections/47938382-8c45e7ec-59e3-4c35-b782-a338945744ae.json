@@ -45,14 +45,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{Url}}/api/users/1",
+							"raw": "{{Url}}/api/users/2",
 							"host": [
 								"{{Url}}"
 							],
 							"path": [
 								"api",
 								"users",
-								"1"
+								"2"
 							]
 						}
 					},
