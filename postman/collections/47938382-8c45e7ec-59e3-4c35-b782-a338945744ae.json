@@ -137,7 +137,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "7346f992-273a-4444-bef3-ae6c9e0467ac",
+						"id": "f9aeb08f-3871-4e5d-a7e0-0a56aea6c198",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -148,11 +148,11 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "99bafbe6-994d-47ca-9cf6-ce2fb95612d5",
+						"id": "eb3760aa-8f3f-438b-8442-5ba31e14c550",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
-							"/*console.log(\"Hello Beni!!!\");",
+							"console.log(\"Hello Beni!!!\");",
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.response.to.have.status(200);",
 							"});",
@@ -160,7 +160,7 @@
 							"console.log(\"The value of the variable= \"+Variable);",
 							"pm.globals.set(\"Name\", \"SBeni🔥\");",
 							"let Newvar =pm.globals.get(\"Name\");",
-							"console.log(\"The value of the new variable= \"+Newvar);*/"
+							"console.log(\"The value of the new variable= \"+Newvar);"
 						]
 					}
 				}
