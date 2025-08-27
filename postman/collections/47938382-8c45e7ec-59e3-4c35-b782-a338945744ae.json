@@ -78,7 +78,8 @@
 									"});",
 									"pm.test(\"Verify that status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
-									"}); "
+									"}); ",
+									""
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -87,7 +88,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "45d37a61-97e9-4a00-bb0f-5326fb758238",
+								"id": "9e783fcc-f3b9-482c-95a5-139820aaac10",
 								"exec": [],
 								"type": "text/javascript"
 							}
