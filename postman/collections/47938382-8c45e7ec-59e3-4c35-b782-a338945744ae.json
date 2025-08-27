@@ -105,7 +105,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "d691704f-4c1c-4a8e-9b7d-01ad57eadff5",
+						"id": "7c2227eb-c021-4ee5-acc8-91f48b571c18",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -116,11 +116,11 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "c666348c-8366-442c-b3e1-ce5945003f68",
+						"id": "acec4fba-34ef-402b-b96a-b7dc4edcccc9",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
-							"console.log(\"Hello Beni!!!\");",
+							"/*console.log(\"Hello Beni!!!\");",
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.response.to.have.status(200);",
 							"});",
