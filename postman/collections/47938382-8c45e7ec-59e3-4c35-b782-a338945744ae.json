@@ -73,7 +73,7 @@
 							"script": {
 								"id": "15fc08b8-dbc8-4362-a497-d5379f4fd8e6",
 								"exec": [
-									"pm.test(\"Verifying that response time is less than 400ms\", function () {",
+									"pm.test(\"Verifying that response time is less than 200ms\", function () {",
 									"    pm.expect(pm.response.responseTime).to.be.below(200);",
 									"});",
 									"pm.test(\"Verify that status code is 200\", function () {",
@@ -87,7 +87,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "2bf4014f-b641-4868-b424-be8294b267ff",
+								"id": "45d37a61-97e9-4a00-bb0f-5326fb758238",
 								"exec": [],
 								"type": "text/javascript"
 							}
