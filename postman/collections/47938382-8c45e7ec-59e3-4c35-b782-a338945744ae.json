@@ -102,7 +102,13 @@
 							"type": "noauth"
 						},
 						"method": "GET",
-						"header": [],
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "",
+								"type": "text"
+							}
+						],
 						"url": {
 							"raw": "{{Url}}/api/users?page=2",
 							"host": [
