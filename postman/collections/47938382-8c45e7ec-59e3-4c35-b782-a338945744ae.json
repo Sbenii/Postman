@@ -52,14 +52,14 @@
 							}
 						],
 						"url": {
-							"raw": "{{Url}}/api/users/3",
+							"raw": "{{Url}}/api/users/2",
 							"host": [
 								"{{Url}}"
 							],
 							"path": [
 								"api",
 								"users",
-								"3"
+								"2"
 							]
 						}
 					},
