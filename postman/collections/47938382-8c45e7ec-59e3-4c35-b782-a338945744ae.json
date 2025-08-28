@@ -140,7 +140,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "f9aeb08f-3871-4e5d-a7e0-0a56aea6c198",
+						"id": "f66d0a5e-1284-4f9a-a046-f21f94d52200",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -151,7 +151,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "eb3760aa-8f3f-438b-8442-5ba31e14c550",
+						"id": "0560174f-4a94-43aa-9d1e-64b5157849dc",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -161,7 +161,7 @@
 							"});",
 							"let Variable=pm.globals.get(\"Url\");",
 							"console.log(\"The value of the variable= \"+Variable);",
-							"pm.globals.set(\"Name\", \"SBeni🔥\");",
+							"pm.globals.set(\"Name\", \"SE\");",
 							"let Newvar =pm.globals.get(\"Name\");",
 							"console.log(\"The value of the new variable= \"+Newvar);"
 						]
