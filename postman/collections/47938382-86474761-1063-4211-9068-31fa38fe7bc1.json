@@ -7,7 +7,20 @@
 	"item": [
 		{
 			"name": "GET",
-			"item": [],
+			"item": [
+				{
+					"name": "New Request",
+					"id": "47938382-f29e5bb6-0039-4a4d-b6f8-b646b8a6fa3e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "47938382-1c6d5d1c-f95f-43b2-8126-3d7f2c6cadeb"
 		},
 		{
