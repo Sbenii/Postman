@@ -10,6 +10,32 @@
 			"item": [
 				{
 					"name": "List resources",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "7a5e17e5-8916-4a98-ba48-374ec42f4b30",
+								"exec": [
+									"pm.test(\"Verifying that response time is less than 500ms\", function () {",
+									"    pm.expect(pm.response.responseTime).to.be.below(500);",
+									"});",
+									"pm.test(\"Verify that status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"}); "
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "bff421ea-4b1a-4a8e-8502-e89e3983b4cd",
+								"exec": [],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "47938382-f29e5bb6-0039-4a4d-b6f8-b646b8a6fa3e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
