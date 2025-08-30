@@ -9,7 +9,7 @@
 			"name": "GET",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "List resources",
 					"id": "47938382-f29e5bb6-0039-4a4d-b6f8-b646b8a6fa3e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
