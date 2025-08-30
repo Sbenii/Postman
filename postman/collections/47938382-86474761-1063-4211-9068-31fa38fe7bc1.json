@@ -63,7 +63,39 @@
 					"response": []
 				}
 			],
-			"id": "47938382-1c6d5d1c-f95f-43b2-8126-3d7f2c6cadeb"
+			"id": "47938382-1c6d5d1c-f95f-43b2-8126-3d7f2c6cadeb",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "96da43a1-8c76-4cbd-a9f4-8f5fc5b43dca",
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "c815e1ae-1204-4d13-b483-a3c58b97e60a",
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							"console.log(\"Hello usw!!!\");",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"let Variable=pm.globals.get(\"Url\");",
+							"console.log(\"The value of the variable= \"+Variable);",
+							"pm.globals.set(\"Name\", \"Sezerano Beni\");",
+							"let Newvar =pm.globals.get(\"Name\");",
+							"console.log(\"The value of the new variable= \"+Newvar);"
+						]
+					}
+				}
+			]
 		},
 		{
 			"name": "POST",
