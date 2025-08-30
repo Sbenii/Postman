@@ -68,7 +68,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "e91b1c23-c421-42b8-b8cd-4b2854c512a3",
+						"id": "6fa268a5-29eb-49a3-af6d-1adee884f99c",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -79,11 +79,11 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "8ece8f64-7e68-46f1-86e9-b79b9094806e",
+						"id": "e0a4c0e5-daf8-4a11-91cf-fb8a8dcbcf6d",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
-							"console.log(\"Hello user of the secon!!!\");",
+							"console.log(\"Hello user of the second collection!!!\");",
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.response.to.have.status(200);",
 							"});",
