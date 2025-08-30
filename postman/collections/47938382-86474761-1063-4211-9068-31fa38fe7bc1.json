@@ -16,7 +16,13 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": [],
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "",
+								"type": "text"
+							}
+						],
 						"url": {
 							"raw": "{{Url}}/api/unknown",
 							"host": [
