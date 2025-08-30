@@ -18,12 +18,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{Url}}/",
+							"raw": "{{Url}}/api/unknown",
 							"host": [
 								"{{Url}}"
 							],
 							"path": [
-								""
+								"api",
+								"unknown"
 							]
 						}
 					},
