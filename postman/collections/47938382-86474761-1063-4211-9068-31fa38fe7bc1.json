@@ -68,7 +68,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "96da43a1-8c76-4cbd-a9f4-8f5fc5b43dca",
+						"id": "e91b1c23-c421-42b8-b8cd-4b2854c512a3",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -79,11 +79,11 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "c815e1ae-1204-4d13-b483-a3c58b97e60a",
+						"id": "8ece8f64-7e68-46f1-86e9-b79b9094806e",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
-							"console.log(\"Hello usw!!!\");",
+							"console.log(\"Hello user of the secon!!!\");",
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.response.to.have.status(200);",
 							"});",
