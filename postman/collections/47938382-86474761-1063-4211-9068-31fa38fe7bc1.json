@@ -68,7 +68,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "a5d15a97-6880-4591-83ef-5de7e14f090e",
+						"id": "fa5ce6b1-653c-46bc-948b-58a6894a4082",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -79,13 +79,13 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "e1be7545-6661-4af9-9512-29f9029d626a",
+						"id": "1c2ae587-7ee4-481c-8cb5-024b9c99281c",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
-							"console.log(\"Hello user of the second collection!!!\");",
+							"console.log(\"Hello user of the collection2!!!\");",
 							"pm.test(\"Status code is 200\", function () {",
-							"    pm.response.to.have.status(200);",
+							"    pm.response.to.have.status(250);",
 							"});",
 							"let Variable=pm.globals.get(\"Url\");",
 							"console.log(\"The value of the variable= \"+Variable);",
