@@ -108,7 +108,17 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "{{Url}}/api/users",
+							"host": [
+								"{{Url}}"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						}
 					},
 					"response": []
 				}
