@@ -68,7 +68,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "f0ce78e1-7689-4305-934d-9eeed0dd96de",
+						"id": "28fb9b7d-2baf-4c20-a208-33eba174d614",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -79,7 +79,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "d4612e97-77d1-4344-b427-5af341e6ba91",
+						"id": "b94a302d-51d6-4a7a-9f5c-dad9da1742cc",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -87,6 +87,8 @@
 							"pm.test(\"Status code is 250\", function () {",
 							"    pm.response.to.have.status(250);",
 							"});",
+							"let Variable=pm.globals.get(\"Url\");",
+							"console.log(\"The value of the variable= \"+Variable);",
 							"pm.globals.set(\"Name\", \"SBeni 2\");",
 							"let Newvar =pm.globals.get(\"Name\");",
 							"console.log(\"The value of the new variable= \"+Newvar);"
