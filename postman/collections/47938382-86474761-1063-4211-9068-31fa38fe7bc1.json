@@ -99,7 +99,20 @@
 		},
 		{
 			"name": "POST",
-			"item": [],
+			"item": [
+				{
+					"name": "New Request",
+					"id": "47938382-9a02c28e-fa4e-42bf-8cd6-89687707ba6d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "47938382-b230b2ef-03a5-4dc1-aac1-94a153a4e910"
 		}
 	]
