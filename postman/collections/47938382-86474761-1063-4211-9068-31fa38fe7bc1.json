@@ -129,7 +129,37 @@
 					"response": []
 				}
 			],
-			"id": "47938382-b230b2ef-03a5-4dc1-aac1-94a153a4e910"
+			"id": "47938382-b230b2ef-03a5-4dc1-aac1-94a153a4e910",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "bc19f23e-44f1-40df-b260-535262a152a9",
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "55f8d1d1-0453-4376-8618-34f684bd5f5c",
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							"console.log(\"Hello user of the collection2!!!\");",
+							"pm.test(\"Status code is 250\", function () {",
+							"    pm.response.to.have.status(250);",
+							"});",
+							"pm.globals.set(\"Name\", \"SBeni 2\");",
+							"let Newvar =pm.globals.get(\"Name\");",
+							"console.log(\"The value of the new variable= \"+Newvar);"
+						]
+					}
+				}
+			]
 		}
 	]
 }
