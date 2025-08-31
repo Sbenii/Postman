@@ -101,7 +101,7 @@
 			"name": "POST",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "Create",
 					"id": "47938382-9a02c28e-fa4e-42bf-8cd6-89687707ba6d",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
