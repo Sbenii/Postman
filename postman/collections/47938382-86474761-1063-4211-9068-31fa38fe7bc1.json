@@ -96,7 +96,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "28fb9b7d-2baf-4c20-a208-33eba174d614",
+						"id": "ba923461-b7a7-4e51-924f-29920207c5b1",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -107,13 +107,13 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "b94a302d-51d6-4a7a-9f5c-dad9da1742cc",
+						"id": "1d697df1-4405-479b-b67d-3cba8ec3fe93",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
 							"console.log(\"Hello user of the collection2!!!\");",
-							"pm.test(\"Status code is 250\", function () {",
-							"    pm.response.to.have.status(250);",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
 							"});",
 							"let Variable=pm.globals.get(\"Url\");",
 							"console.log(\"The value of the variable= \"+Variable);",
