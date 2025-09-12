@@ -173,7 +173,13 @@
 					},
 					"request": {
 						"method": "POST",
-						"header": [],
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "",
+								"type": "text"
+							}
+						],
 						"url": {
 							"raw": "{{Url}}/api/users",
 							"host": [
