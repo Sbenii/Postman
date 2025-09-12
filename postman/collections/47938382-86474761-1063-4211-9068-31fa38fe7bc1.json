@@ -129,7 +129,7 @@
 			"name": "POST",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "Login",
 					"id": "47938382-a2e30452-51ba-4473-9986-ee62c0da84cf",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
