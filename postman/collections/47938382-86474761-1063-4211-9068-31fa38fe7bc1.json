@@ -182,7 +182,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "",
+							"raw": "{\n    \"name\": \"morpheus\",\n    \"job\": \"leader\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -208,7 +208,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "6837b081-2eaf-4465-aaab-63155cb17bf3",
+						"id": "62d9d3d2-7d3e-4bc5-9753-7ad4cc34db19",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -219,13 +219,13 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "f5119356-3c1b-4879-8ad6-a19f505c3537",
+						"id": "4c8361ec-945f-475a-bf88-63ec03ca8bce",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
 							"console.log(\"Hello user of the collection2!!!\");",
-							"pm.test(\"Status code is 200\", function () {",
-							"    pm.response.to.have.status(200);",
+							"pm.test(\"Status code is 250\", function () {",
+							"    pm.response.to.have.status(250);",
 							"});",
 							"pm.globals.set(\"Name\", \"SBeni 2\");",
 							"let Newvar =pm.globals.get(\"Name\");",
