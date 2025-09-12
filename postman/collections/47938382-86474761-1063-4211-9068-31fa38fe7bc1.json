@@ -176,10 +176,19 @@
 						"header": [
 							{
 								"key": "x-api-key",
-								"value": "",
+								"value": "reqres-free-v1",
 								"type": "text"
 							}
 						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
 							"raw": "{{Url}}/api/users",
 							"host": [
