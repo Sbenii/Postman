@@ -249,10 +249,19 @@
 						"header": [
 							{
 								"key": "x-api-key",
-								"value": "",
+								"value": "reqres-free-v1",
 								"type": "text"
 							}
 						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"morpheus\",\n    \"job\": \"zion resident\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
 							"raw": "{{Url}}//api/users/2",
 							"host": [
