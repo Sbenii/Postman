@@ -248,7 +248,7 @@
 						"method": "PATCH",
 						"header": [
 							{
-								"key": "X",
+								"key": "x-api-key",
 								"value": "",
 								"type": "text"
 							}
