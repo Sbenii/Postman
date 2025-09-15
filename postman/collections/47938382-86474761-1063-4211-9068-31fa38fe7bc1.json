@@ -246,7 +246,25 @@
 					},
 					"request": {
 						"method": "PATCH",
-						"header": []
+						"header": [
+							{
+								"key": "X",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{Url}}//api/users/2",
+							"host": [
+								"{{Url}}"
+							],
+							"path": [
+								"",
+								"api",
+								"users",
+								"2"
+							]
+						}
 					},
 					"response": []
 				}
