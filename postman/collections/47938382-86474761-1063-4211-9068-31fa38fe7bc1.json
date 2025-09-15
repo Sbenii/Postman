@@ -208,7 +208,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "fa8b0bf9-25e6-41aa-be33-7658c2923f45",
+						"id": "d9f371d2-4df9-4de6-8d7a-a5002ce9a4bc",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -219,13 +219,13 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "d8896cab-eb11-484c-8aa6-14a3971ef018",
+						"id": "bf102a8e-f8e0-4f9c-8a7d-73ff0a92581c",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
 							"console.log(\"Hello user of the collection2!!!\");",
-							"pm.test(\"Status code is 250\", function () {",
-							"    pm.response.to.have.status(250);",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
 							"});",
 							"pm.globals.set(\"Name\", \"SBeni \");",
 							"let Newvar =pm.globals.get(\"Name\");",
