@@ -130,6 +130,40 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Delayed",
+					"id": "47938382-29ba1d69-6be7-4651-875d-bcd9977ef14b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{Url}}/api/users?delay=3",
+							"host": [
+								"{{Url}}"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "delay",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"id": "47938382-3196c233-c3bc-4f75-b3ce-7fdccc91fe33",
