@@ -237,7 +237,20 @@
 		},
 		{
 			"name": "PATCH",
-			"item": [],
+			"item": [
+				{
+					"name": "New Request",
+					"id": "47938382-cc1033bb-5229-45aa-974a-5f3df70430b8",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PATCH",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "47938382-be44820c-393b-4098-acfd-db2926e5fdc5"
 		}
 	]
