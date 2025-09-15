@@ -239,7 +239,7 @@
 			"name": "PATCH",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "Update",
 					"id": "47938382-cc1033bb-5229-45aa-974a-5f3df70430b8",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
