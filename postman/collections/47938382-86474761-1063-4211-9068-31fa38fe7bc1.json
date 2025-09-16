@@ -98,7 +98,18 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "{{Url}}/api/unknown/23",
+							"host": [
+								"{{Url}}"
+							],
+							"path": [
+								"api",
+								"unknown",
+								"23"
+							]
+						}
 					},
 					"response": []
 				}
