@@ -118,6 +118,51 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "47938382-4e3e4d17-152e-45ef-abec-2f1745934ccc",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://serpapi.com/search.json?q=Coffee&location=Austin,+Texas,+United+States&hl=en&gl=us&google_domain=google.com",
+							"protocol": "https",
+							"host": [
+								"serpapi",
+								"com"
+							],
+							"path": [
+								"search.json"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "Coffee"
+								},
+								{
+									"key": "location",
+									"value": "Austin,+Texas,+United+States"
+								},
+								{
+									"key": "hl",
+									"value": "en"
+								},
+								{
+									"key": "gl",
+									"value": "us"
+								},
+								{
+									"key": "google_domain",
+									"value": "google.com"
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"id": "47938382-1c6d5d1c-f95f-43b2-8126-3d7f2c6cadeb",
