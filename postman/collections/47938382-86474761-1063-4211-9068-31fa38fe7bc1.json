@@ -284,7 +284,20 @@
 					},
 					"request": {
 						"method": "POST",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "http://my-server/api/2.2/auth/signin",
+							"protocol": "http",
+							"host": [
+								"my-server"
+							],
+							"path": [
+								"api",
+								"2.2",
+								"auth",
+								"signin"
+							]
+						}
 					},
 					"response": []
 				}
