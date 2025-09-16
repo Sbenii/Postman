@@ -278,7 +278,39 @@
 					"response": []
 				}
 			],
-			"id": "47938382-be44820c-393b-4098-acfd-db2926e5fdc5"
+			"id": "47938382-be44820c-393b-4098-acfd-db2926e5fdc5",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "d9f367a8-d44e-4d0a-b204-d73fd7a6a4ab",
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "42d2e390-5a84-4afc-856e-f4104f4ef355",
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							"console.log(\"Hello Beni!!!\");",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"let Variable=pm.globals.get(\"Url\");",
+							"console.log(\"The value of the variable= \"+Variable);",
+							"pm.globals.set(\"Name\", \"Sezerano Benii\");",
+							"let Newvar =pm.globals.get(\"Name\");",
+							"console.log(\"The value of the new variable= \"+Newvar);"
+						]
+					}
+				}
+			]
 		}
 	]
 }
