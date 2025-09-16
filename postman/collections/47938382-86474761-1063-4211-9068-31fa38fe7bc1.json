@@ -283,19 +283,7 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
-					},
-					"response": []
-				},
-				{
-					"name": "New Request",
-					"id": "47938382-39e82484-be32-4369-a649-74b7c283e007",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
+						"method": "POST",
 						"header": []
 					},
 					"response": []
