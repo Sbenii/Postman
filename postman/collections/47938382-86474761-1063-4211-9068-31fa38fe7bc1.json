@@ -208,7 +208,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "d9f371d2-4df9-4de6-8d7a-a5002ce9a4bc",
+						"id": "64bd2b62-6f38-4100-b15b-d77ea2b80ce5",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -219,15 +219,17 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "bf102a8e-f8e0-4f9c-8a7d-73ff0a92581c",
+						"id": "02041a37-7c45-4b9e-8812-6bf0b6dce086",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
-							"console.log(\"Hello user of the collection2!!!\");",
+							"console.log(\"Hello Beni!!!\");",
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.response.to.have.status(200);",
 							"});",
-							"pm.globals.set(\"Name\", \"SBeni \");",
+							"let Variable=pm.globals.get(\"Url\");",
+							"console.log(\"The value of the variable= \"+Variable);",
+							"pm.globals.set(\"Name\", \"SezBeni🔥\");",
 							"let Newvar =pm.globals.get(\"Name\");",
 							"console.log(\"The value of the new variable= \"+Newvar);"
 						]
