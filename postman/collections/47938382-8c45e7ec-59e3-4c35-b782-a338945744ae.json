@@ -175,7 +175,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://ir-example.mir.prod.reco.microsoft.com/Reco/V1.0/New?modeling=adw&Count=5",
+							"raw": "https://ir-example.mir.prod.reco.microsoft.com/Reco/V1.0/New?modeling=adw&Count=5&SkipItems=3",
 							"protocol": "https",
 							"host": [
 								"ir-example",
@@ -198,6 +198,10 @@
 								{
 									"key": "Count",
 									"value": "5"
+								},
+								{
+									"key": "SkipItems",
+									"value": "3"
 								}
 							]
 						}
