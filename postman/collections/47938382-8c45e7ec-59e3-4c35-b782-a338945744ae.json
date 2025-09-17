@@ -173,7 +173,34 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "https://ir-example.mir.prod.reco.microsoft.com/Reco/V1.0/New?modeling=adw&Count=5",
+							"protocol": "https",
+							"host": [
+								"ir-example",
+								"mir",
+								"prod",
+								"reco",
+								"microsoft",
+								"com"
+							],
+							"path": [
+								"Reco",
+								"V1.0",
+								"New"
+							],
+							"query": [
+								{
+									"key": "modeling",
+									"value": "adw"
+								},
+								{
+									"key": "Count",
+									"value": "5"
+								}
+							]
+						}
 					},
 					"response": []
 				}
