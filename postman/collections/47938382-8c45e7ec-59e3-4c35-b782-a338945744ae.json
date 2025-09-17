@@ -175,7 +175,17 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": ""
+							"raw": "https://fake-json-api.mock.beeceptor.com/users",
+							"protocol": "https",
+							"host": [
+								"fake-json-api",
+								"mock",
+								"beeceptor",
+								"com"
+							],
+							"path": [
+								"users"
+							]
 						}
 					},
 					"response": []
