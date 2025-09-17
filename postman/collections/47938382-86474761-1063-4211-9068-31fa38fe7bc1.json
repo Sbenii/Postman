@@ -165,8 +165,33 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Biceptor",
 					"id": "47938382-9d15c8da-2add-43db-9ab7-680fdef8a54b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://fake-json-api.mock.beeceptor.com/companies",
+							"protocol": "https",
+							"host": [
+								"fake-json-api",
+								"mock",
+								"beeceptor",
+								"com"
+							],
+							"path": [
+								"companies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "47938382-ee408f34-4230-4e32-9aea-52e45cf81aaf",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
