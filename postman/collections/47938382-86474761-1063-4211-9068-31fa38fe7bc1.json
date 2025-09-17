@@ -197,7 +197,20 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "https://dummy-json.mock.beeceptor.com/todos",
+							"protocol": "https",
+							"host": [
+								"dummy-json",
+								"mock",
+								"beeceptor",
+								"com"
+							],
+							"path": [
+								"todos"
+							]
+						}
 					},
 					"response": []
 				}
