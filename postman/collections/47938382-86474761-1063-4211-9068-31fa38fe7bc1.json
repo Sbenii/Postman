@@ -215,7 +215,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Single source",
 					"id": "47938382-2671db0b-cbec-44d2-a19d-98f5b7349101",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
