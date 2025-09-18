@@ -224,14 +224,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{Url}}https://reqres.in/api/users?page=2",
-							"protocol": "{{Url}}https",
+							"raw": "{{Url}api/users?page=2",
 							"host": [
-								"reqres",
-								"in"
+								"{{Url}api"
 							],
 							"path": [
-								"api",
 								"users"
 							],
 							"query": [
