@@ -224,11 +224,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{Url}api/users?page=2",
+							"raw": "{{Url}}/api/users?page=2",
 							"host": [
-								"{{Url}api"
+								"{{Url}}"
 							],
 							"path": [
+								"api",
 								"users"
 							],
 							"query": [
