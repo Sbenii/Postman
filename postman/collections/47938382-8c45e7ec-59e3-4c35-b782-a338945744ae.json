@@ -305,7 +305,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "5d08ba41-05f8-4608-8f69-2bdd496c0cb4",
+						"id": "104630b5-acef-4263-bcbb-454221c48698",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -316,11 +316,19 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "3695153c-bbb4-4316-b7a0-45c3856288f8",
+						"id": "08cc6b01-cfcd-429f-9ffe-c9c4fed06fc8",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
-							""
+							"console.log(\"Hello Beni!!!\");",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"let Variable=pm.globals.get(\"Url\");",
+							"console.log(\"The value of the variable= \"+Variable);",
+							"pm.globals.set(\"Name\", \"Sezerano Benii\");",
+							"let Newvar =pm.globals.get(\"Name\");",
+							"console.log(\"The value of the new variable= \"+Newvar);"
 						]
 					}
 				}
