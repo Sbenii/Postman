@@ -228,7 +228,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Single not found",
 					"id": "47938382-96490aff-7af7-4947-9657-7eedf2517943",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
