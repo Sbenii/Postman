@@ -214,6 +214,30 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "47938382-846c89e5-ceea-4575-9aaf-40ab82957102",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "47938382-96490aff-7af7-4947-9657-7eedf2517943",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "47938382-3196c233-c3bc-4f75-b3ce-7fdccc91fe33",
