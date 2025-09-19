@@ -327,7 +327,16 @@
 									"} catch (err) {",
 									"    console.error(err);",
 									"}",
-									""
+									"try {",
+									"    const response = await pm.sendRequest({",
+									"        url: \"https://postman-echo.com/get\",",
+									"        method: \"GET\"",
+									"    });",
+									"",
+									"    console.log(response.json());",
+									"} catch (err) {",
+									"    console.error(err);",
+									"}"
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -336,7 +345,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "b5d221f2-cdcd-4394-8b08-b46d026da2d1",
+								"id": "1fa6d3d9-65ee-42e1-abad-15a49d8eba2c",
 								"exec": [],
 								"type": "text/javascript"
 							}
