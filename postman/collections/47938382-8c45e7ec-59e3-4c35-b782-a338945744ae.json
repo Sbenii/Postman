@@ -309,7 +309,8 @@
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
-									"});"
+									"});",
+									""
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -318,7 +319,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "3614529b-1799-4239-9a34-e98dc8c54c8a",
+								"id": "2c72211a-46ab-4b19-b07d-2ed6f678371e",
 								"exec": [],
 								"type": "text/javascript"
 							}
