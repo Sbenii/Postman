@@ -301,6 +301,29 @@
 			"item": [
 				{
 					"name": "Register Successfull",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "e5aa72f1-0663-4179-b964-3f529be5b8c3",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "3614529b-1799-4239-9a34-e98dc8c54c8a",
+								"exec": [],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "47938382-88b8dd79-af87-428d-af82-7010e0a5f0f1",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
