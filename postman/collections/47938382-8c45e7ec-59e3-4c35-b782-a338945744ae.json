@@ -317,7 +317,16 @@
 									"pm.test(\"Successful POST request\", function () {",
 									"    pm.expect(pm.response.code).to.be.oneOf([200, 201]);",
 									"});",
-									""
+									"try {",
+									"    const response = await pm.sendRequest({",
+									"        url: \"https://postman-echo.com/get\",",
+									"        method: \"GET\"",
+									"    });",
+									"",
+									"    console.log(response.json());",
+									"} catch (err) {",
+									"    console.error(err);",
+									"}"
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -326,7 +335,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "2deb91bf-3595-46e0-b85b-f688b02fed65",
+								"id": "58b9215a-e919-4b02-a90b-c396ac2bf84e",
 								"exec": [],
 								"type": "text/javascript"
 							}
