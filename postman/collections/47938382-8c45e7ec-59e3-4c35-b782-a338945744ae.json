@@ -326,7 +326,8 @@
 									"    console.log(response.json());",
 									"} catch (err) {",
 									"    console.error(err);",
-									"}"
+									"}",
+									""
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -335,7 +336,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "58b9215a-e919-4b02-a90b-c396ac2bf84e",
+								"id": "b5d221f2-cdcd-4394-8b08-b46d026da2d1",
 								"exec": [],
 								"type": "text/javascript"
 							}
