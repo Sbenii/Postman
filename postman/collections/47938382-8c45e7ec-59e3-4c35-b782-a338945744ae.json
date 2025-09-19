@@ -314,7 +314,9 @@
 									"//     var jsonData = pm.response.json();",
 									"//     pm.expect(jsonData.value).to.eql(100);",
 									"// });",
-									""
+									"pm.test(\"Successful POST request\", function () {",
+									"    pm.expect(pm.response.code).to.be.oneOf([201, 202]);",
+									"});"
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -323,7 +325,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "1e4d001f-4952-4ad5-9267-fe226673e8ff",
+								"id": "cb6a4c6b-dd98-4c6b-a8ac-5a1c6ae2788b",
 								"exec": [],
 								"type": "text/javascript"
 							}
