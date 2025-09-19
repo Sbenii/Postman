@@ -335,7 +335,7 @@
 									"",
 									"    console.log(response.json());",
 									"} catch (urll) {",
-									"    console.error(url);",
+									"    console.error);",
 									"}"
 								],
 								"type": "text/javascript",
@@ -345,7 +345,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "1aa31cc9-a54f-4aca-b2ef-16cc4048e269",
+								"id": "5f1f5469-825c-4800-99be-c24aa7be8665",
 								"exec": [],
 								"type": "text/javascript"
 							}
