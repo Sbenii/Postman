@@ -388,7 +388,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "2e741c23-3da8-449d-800b-a039043cae4b",
+						"id": "6dd6d090-059f-4f0c-b2ab-7c0385160208",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -399,7 +399,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "0bd559ca-82f5-493e-adfa-ccf209ffb95f",
+						"id": "fb72c4d2-d8dd-4f2d-bb79-ed00f1b9682d",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -409,7 +409,7 @@
 							"});",
 							"let Variable=pm.globals.get(\"Url\");",
 							"console.log(\"The value of the variable= \"+Variable);",
-							"pm.globals.set(\"Name\", \"Sezerano Benii\");",
+							"pm.globals.set(\"\", \"Sezerano Benii\");",
 							"let Newvar =pm.globals.get(\"Name\");",
 							"console.log(\"The value of the new variable= \"+Newvar);"
 						]
