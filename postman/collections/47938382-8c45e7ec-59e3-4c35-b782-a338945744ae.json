@@ -334,7 +334,7 @@
 									"    });",
 									"",
 									"    console.log(response.json());",
-									"} catch (err) {",
+									"} catch (l) {",
 									"    console.error(err);",
 									"}"
 								],
@@ -345,7 +345,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "1fa6d3d9-65ee-42e1-abad-15a49d8eba2c",
+								"id": "9fd176e5-a4bd-4fa9-bd18-2e31a68415bc",
 								"exec": [],
 								"type": "text/javascript"
 							}
