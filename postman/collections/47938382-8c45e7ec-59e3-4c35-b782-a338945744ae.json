@@ -388,7 +388,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "73719beb-14d4-4889-acb7-2a3033fc313e",
+						"id": "2e741c23-3da8-449d-800b-a039043cae4b",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -399,11 +399,11 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "15415ec2-019a-4672-a0ee-f2c309022dcb",
+						"id": "0bd559ca-82f5-493e-adfa-ccf209ffb95f",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
-							"console.log(\"These are \");",
+							"console.log(\"These are POST requests\");",
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.response.to.have.status(200);",
 							"});",
