@@ -297,7 +297,8 @@
 									"    pm.expect(pm.response.code).to.be.oneOf([200, 202]);",
 									"});",
 									"pm.variables.get(\"Name\");",
-									"pm.variables.get(\"Age\")"
+									"pm.variables.get(\"Age\");",
+									""
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -306,7 +307,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "c58992a3-b6b9-4f4b-9a2c-3414ff56a142",
+								"id": "7b3cec92-5baf-455a-adfe-b75d81b8f1a8",
 								"exec": [],
 								"type": "text/javascript"
 							}
