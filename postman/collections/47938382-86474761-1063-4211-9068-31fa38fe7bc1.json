@@ -288,7 +288,7 @@
 							"script": {
 								"id": "738c5214-a6e3-4ecf-8a2b-6493bff8aa04",
 								"exec": [
-									"pm.variables.set(\"variable_key\", \"variable_value\");"
+									"pm.variables.set(\"\", \"variable_value\");"
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -297,7 +297,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "ae0ff885-fa35-4971-9f5c-e27f0fb8c170",
+								"id": "b173fcee-8d35-43ee-b51e-46d86181ffc3",
 								"exec": [],
 								"type": "text/javascript"
 							}
