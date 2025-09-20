@@ -282,6 +282,27 @@
 			"item": [
 				{
 					"name": "Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "738c5214-a6e3-4ecf-8a2b-6493bff8aa04",
+								"exec": [
+									"pm.variables.set(\"variable_key\", \"variable_value\");"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "ae0ff885-fa35-4971-9f5c-e27f0fb8c170",
+								"exec": [],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "47938382-a2e30452-51ba-4473-9986-ee62c0da84cf",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
