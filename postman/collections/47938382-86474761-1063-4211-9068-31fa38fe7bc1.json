@@ -298,7 +298,7 @@
 									"});",
 									"pm.variables.get(\"Name\");",
 									"pm.variables.get(\"Age\");",
-									""
+									"console.log()"
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -307,7 +307,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "7b3cec92-5baf-455a-adfe-b75d81b8f1a8",
+								"id": "fa780a2d-432c-4557-8901-07ff50be2586",
 								"exec": [],
 								"type": "text/javascript"
 							}
