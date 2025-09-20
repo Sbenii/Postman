@@ -297,8 +297,8 @@
 									"    pm.expect(pm.response.code).to.be.oneOf([200, 202]);",
 									"});",
 									"let name =pm.variables.get(\"Name\");",
-									"letage=pm.variables.get(\"Age\");",
-									"console.log(\"Name:\",\"Name\");"
+									"let age=pm.variables.get(\"Age\");",
+									"console.log(\"Name:\",name);"
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -307,7 +307,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "04e7b222-03f9-44a3-b0f2-1878e0fa68ed",
+								"id": "bc622ffb-5625-47a1-979d-168888a20ccc",
 								"exec": [],
 								"type": "text/javascript"
 							}
