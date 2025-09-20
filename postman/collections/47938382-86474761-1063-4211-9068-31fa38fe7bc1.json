@@ -292,7 +292,8 @@
 									"pm.variables.set(\"Age\",\"20yrs\")",
 									"pm.test(\"Response time is less than 800ms\", function () {",
 									"    pm.expect(pm.response.responseTime).to.be.below(800);",
-									"});"
+									"});",
+									""
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -301,7 +302,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "8ab08f8c-133e-4c6d-9626-a54788f494e3",
+								"id": "e9c37353-a22a-48c2-9ce6-dcfde20d0517",
 								"exec": [],
 								"type": "text/javascript"
 							}
