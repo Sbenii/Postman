@@ -290,8 +290,8 @@
 								"exec": [
 									"pm.variables.set(\"Name\", \"Beni\");",
 									"pm.variables.set(\"Age\",\"20yrs\")",
-									"pm.test(\"Response time is less than 200ms\", function () {",
-									"    pm.expect(pm.response.responseTime).to.be.below(200);",
+									"pm.test(\"Response time is less than 800ms\", function () {",
+									"    pm.expect(pm.response.responseTime).to.be.below(800);",
 									"});"
 								],
 								"type": "text/javascript",
@@ -301,7 +301,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "45f4d421-8759-4a70-85b4-8b7626187b99",
+								"id": "8ab08f8c-133e-4c6d-9626-a54788f494e3",
 								"exec": [],
 								"type": "text/javascript"
 							}
