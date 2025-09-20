@@ -293,7 +293,9 @@
 									"pm.test(\"Response time is less than 800ms\", function () {",
 									"    pm.expect(pm.response.responseTime).to.be.below(800);",
 									"});",
-									""
+									"pm.test(\"Successful POST request\", function () {",
+									"    pm.expect(pm.response.code).to.be.oneOf([201, 202]);",
+									"});"
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -302,7 +304,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "e9c37353-a22a-48c2-9ce6-dcfde20d0517",
+								"id": "284b3541-af8c-4d85-abec-a311de916225",
 								"exec": [],
 								"type": "text/javascript"
 							}
