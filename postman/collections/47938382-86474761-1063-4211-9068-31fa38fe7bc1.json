@@ -289,7 +289,8 @@
 								"id": "738c5214-a6e3-4ecf-8a2b-6493bff8aa04",
 								"exec": [
 									"pm.variables.set(\"Name\", \"Beni\");",
-									"pm.variables.set(\"Age\",\"\")"
+									"pm.variables.set(\"Age\",\"20yrs\")",
+									""
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -298,7 +299,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "29c82f96-c504-4110-b4dd-ac4ae3fe954d",
+								"id": "f3d10afc-11d1-4bee-84bb-558f20421a04",
 								"exec": [],
 								"type": "text/javascript"
 							}
