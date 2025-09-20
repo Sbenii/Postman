@@ -295,7 +295,8 @@
 									"});",
 									"pm.test(\"Successful POST request\", function () {",
 									"    pm.expect(pm.response.code).to.be.oneOf([200, 202]);",
-									"});"
+									"});",
+									""
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -304,7 +305,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "0caad7ad-8d61-4180-bcc4-4ba1601eae55",
+								"id": "1d510c61-ef00-40ff-ad97-5be57e32d275",
 								"exec": [],
 								"type": "text/javascript"
 							}
