@@ -296,7 +296,8 @@
 									"pm.test(\"Successful POST request\", function () {",
 									"    pm.expect(pm.response.code).to.be.oneOf([200, 202]);",
 									"});",
-									"pm.variables.get(\"Nam\");"
+									"pm.variables.get(\"Name\");",
+									"pm.variables.get(\"Age\")"
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -305,7 +306,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "ee6705cf-f643-4137-9d70-a4b280f66eaf",
+								"id": "c58992a3-b6b9-4f4b-9a2c-3414ff56a142",
 								"exec": [],
 								"type": "text/javascript"
 							}
