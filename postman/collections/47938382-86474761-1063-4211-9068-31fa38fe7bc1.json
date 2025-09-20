@@ -410,7 +410,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "64bd2b62-6f38-4100-b15b-d77ea2b80ce5",
+						"id": "bd4361bc-7e04-4486-b0e1-4c3cf50bfacb",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -421,19 +421,19 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "02041a37-7c45-4b9e-8812-6bf0b6dce086",
+						"id": "cedfff56-f1d9-4628-9a50-c002794b8d7f",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
-							"console.log(\"Hello Beni!!!\");",
-							"pm.test(\"Status code is 200\", function () {",
-							"    pm.response.to.have.status(200);",
-							"});",
-							"let Variable=pm.globals.get(\"Url\");",
-							"console.log(\"The value of the variable= \"+Variable);",
-							"pm.globals.set(\"Name\", \"SezBeni🔥\");",
-							"let Newvar =pm.globals.get(\"Name\");",
-							"console.log(\"The value of the new variable= \"+Newvar);"
+							"// console.log(\"Hello Beni!!!\");",
+							"// pm.test(\"Status code is 200\", function () {",
+							"//     pm.response.to.have.status(200);",
+							"// });",
+							"// let Variable=pm.globals.get(\"Url\");",
+							"// console.log(\"The value of the variable= \"+Variable);",
+							"// pm.globals.set(\"Name\", \"SezBeni🔥\");",
+							"// let Newvar =pm.globals.get(\"Name\");",
+							"// console.log(\"The value of the new variable= \"+Newvar);"
 						]
 					}
 				}
